@@ -8,7 +8,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-PATH = "/home/wishes/Downloads/Chrome Driver/chromedriver_linux64/chromedriver"
+"""
+To use this script, you need to install Selenium Webdriver and add its path to the 'PATH' variable.
+You can add your username and password to 'EMAIl' and 'PASSWORD' variables before running or it will ask you for them.
+You can also add your certificate details or add them at the runtime. 
+"""
+
+
+PATH = ""
 WEBSITE_LINK = "https://www.linkedin.com/"
 EMAIL = ""
 PASSWORD = ""
